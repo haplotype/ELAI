@@ -48,10 +48,11 @@
 The software, Efficient Local Ancestry Inference (ELAI), is developed and maintained by Yongtao Guan (\url{http://www.ncbi.nlm.nih.gov/pubmed/24388880}).  Please refer to the paper for the details of the statistical method. The \elai is designed to perform local ancestry inference for admixed individuals. Comparing to existing methods to infer local ancestry, \elai has the following advantages: 
 \begin{itemize}
 \itemsep-0.05in 
-\item Directly works with diploid data, no phasing required, 
-\item No recombination map is required---the recombination rates are implicitly estimated, 
-\item It has a high resolution and can detect local ancestry track length of a few tenth of a centi-Morgan (cM). 
-\item The new version assign weights to training at cohort samples so that it applies to datasets of an arbitrary number of individuals (the previous version requires splitting a large sample into small subsets).  The weighting scheme can be found at (\url{http://www.ncbi.nlm.nih.gov/pubmed/26863142}). Current implementation uses weights such that  equivalently the training sample size (for each ancestry) is twice of the cohort sample size. 
+ \item Can directly works with diploid data, wiht no phasing required; Can also work we phased haplotypes. 
+ \item No recombination map is required and the recombination rates are implicitly estimated. 
+ \item Can detect local ancestry track length of a few tenth of a centi-Morgan.
+ \item The new version assign weights to training and cohort samples so that ELAI can work with an arbitrarily large number of cohort samples, and allow absent of one training population (http://www.ncbi.nlm.nih.gov/ pubmed/26863142). 
+
 \end{itemize}
 
 \section{A simple example}
