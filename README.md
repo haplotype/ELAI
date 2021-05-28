@@ -1,6 +1,6 @@
 1. Copyright
 
-ELAI — Efficient local ancestry inference. Copyright (C) 2014–2016 Yongtao Guan.
+ELAI — Efficient local ancestry inference. Copyright (C) 2014–2021 Yongtao Guan.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
