@@ -1,0 +1,6 @@
+
+The following command line assume the pwd is in example. 
+../elai-mac -g hap.ceu.chr22.inp -p 10 -g hap.yri.chr22.inp -p 11 -g admix-1cm.inp -p 1 -pos hgdp.chr22.pos -o test -s 20 --exclude-nopos --exclude-maf 0.01 --exclude-miss1 -mg 20 
+
+This will generate some outputs in output directory. 
+You can run R, then use "source('r.2panel.R')" to check out the output and its comparison with the truth.  
