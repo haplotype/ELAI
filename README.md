@@ -4,7 +4,7 @@ The software, Efficient Local Ancestry Inference (ELAI), is developed and mainta
    1) Can directly works with diploid data, wiht no phasing required; Can also work we phased haplotypes. 
    2) No recombination map is required and the recombination rates are implicitly estimated. 
    3) Can detect local ancestry track length of a few tenth of a centi-Morgan.
-   4) The new version assign weights to training and cohort samples so that ELAI can work with an arbitrarily large number of cohort samples, and allow absent of one training population (http://www.ncbi.nlm.nih.gov/ pubmed/26863142). 
+   4) The new version assign weights to training and cohort samples so that ELAI can work with an arbitrarily large number of cohort samples, and allow absent of one training population (http://www.ncbi.nlm.nih.gov/pubmed/26863142). 
 
 
 Exectuables last compiled on 26 May 2021. 
