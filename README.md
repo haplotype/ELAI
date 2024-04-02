@@ -12,5 +12,4 @@ Exectuables last compiled on 26 May 2021.
     elai-mac was last compiled on MacOS Big Sur (version 11.3).
     elai-lin was last compiled on Ubuntu 18.04. 
 
-See manual for commands and examples.  
-
+ELAI with multi-threading, elai-mt, for linux was last compiled on 31 March 2024. 
